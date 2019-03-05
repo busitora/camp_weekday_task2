@@ -10,3 +10,4 @@ class Animal
     "#{self.name}: #{voice}"
   end
 end
+  
