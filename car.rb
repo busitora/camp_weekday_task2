@@ -44,7 +44,7 @@ class Car
   # 乗車上限メソッドを追加
   def get_on
     if @passengers >= MAX_PASSENGERS
-      puts "乗車できません。この車の最大乗車人数は4人です。"
+      puts "乗車できません。この車の最大乗車人数は#{MAX_PASSENGERS}人です。"
     else
       @passengers += 1
       puts "乗車しました"
